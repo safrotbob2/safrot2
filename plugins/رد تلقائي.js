@@ -49,10 +49,6 @@ let handler = m => m;
        '*بحبك اكتر🌚❤*',  
 
      ]; 
-   }else if (/^😘$/i.test(m.text)) { 
-     responses = [ 
-'😘'
-     ]; 
    } else if (/^احبك$/i.test(m.text)) { 
      responses = [ 
 '*مـي تو 🙂🫀*'
