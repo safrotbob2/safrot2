@@ -63,9 +63,9 @@ let handler = m => m;
        '🌚♥اكيد',  
 
      ];
-     }else if (/^هاي$/i.test(m.text)) { 
+     }else if (/^بوت$/i.test(m.text)) { 
      responses = [ 
-       'هاي',  
+       'اسمي مارو يسطا🦦',  
 
      ];
      }else if (/^❤|♥$/i.test(m.text)) { 
@@ -73,14 +73,14 @@ let handler = m => m;
        '*اعشقق♥*',  
 
      ];
-     }else if (/^اهلا$/i.test(m.text)) { 
+     }else if (/^مارو$/i.test(m.text)) { 
      responses = [ 
-       '*اهلا♥*',  
+       '*قلب مارو🦦*',  
 
      ]; 
-     }else if (/^مساء|مساء$/i.test(m.text)) { 
+     }else if (/^احا$/i.test(m.text)) { 
      responses = [ 
-       'مساء الخير',  
+       'احتين علي احتك🦦',  
 
      ];
      }else if (/^صباح|صباح$/ .test(m.text)) { 
