@@ -25,29 +25,29 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mvro Bot';
   const info = ` _*< معلومات - البوت />*_
 
- ▢ *المطور.:*𝓐𝓜𝓡𝓞 𝓚𝓗𝓐𝓛𝓘𝓓 👾
- ▢ *رقم المطور:* wa.me/201208386317
- ▢ *دعم:* 
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *المطور.:*مـــاࢪو الـمـࢪجـاوي# 👾
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *رقم المطور:* wa.me/201208386317
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *دعم:* 
 
- ▢ *بينغ:* ${rtime}
- ▢ *وقت التشغيل:* ${uptime}
- ▢ *بدء الامر:* ${usedPrefix}
- ▢ *الوضع:* ${self ? "برايفت" : "عام"}
- ▢ *المسجلين.:* ${totalusrReg}
- ▢ *المستخدمين:* ${totalusr}
- ▢ *البوت الفرعي:* ${(conn.user.jid == global.conn.user.jid ? '' :  `بوت فرعي:\n ▢ +${global.conn.user.jid.split`@`[0]}`) || 'ليس بوت فرعي '}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *بينغ:* ${rtime}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *وقت التشغيل:* ${uptime}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *بدء الامر:* ${usedPrefix}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *الوضع:* ${self ? "برايفت" : "عام"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *المسجلين.:* ${totalusrReg}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *المستخدمين:* ${totalusr}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *البوت الفرعي:* ${(conn.user.jid == global.conn.user.jid ? '' :  `بوت فرعي:\n ▢ +${global.conn.user.jid.split`@`[0]}`) || 'ليس بوت فرعي '}
  
- ▢ *البرايفت:* ${chats.length - groups.length}
- ▢ *جروبات:* ${groups.length}
- ▢ *الدردشات:* ${chats.length}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *البرايفت:* ${chats.length - groups.length}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *جروبات:* ${groups.length}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *الدردشات:* ${chats.length}
  
- ▢ *الصحين:* ${autoread ? "نشط" : "غير نشط"}
- ▢ *تقيد:* ${restrict ? "نشط" : "غير نشط"}
- ▢ *الكمبيوتر:* ${pconly ? "نشط" : "غير نشط"}
- ▢ *جروب:* ${gconly ? "نشط" : "غير نشط"}
- ▢ *برايفت:* ${antiprivado ? "نشط" : "غير نشط"}
- ▢ *مكالمات:* ${antiCall ? "نشط" : "غير نشط"}
- ▢ *بوت فرعي:* ${modejadibot ? "نشط" : "غير نشط"}`.trim();
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *الصحين:* ${autoread ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *تقيد:* ${restrict ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *الكمبيوتر:* ${pconly ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *جروب:* ${gconly ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *برايفت:* ${antiprivado ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *مكالمات:* ${antiCall ? "نشط" : "غير نشط"}
+  🧛🏻‍♂️⃝🇪🇬️⤺┇❯ *بوت فرعي:* ${modejadibot ? "نشط" : "غير نشط"}`.trim();
   const doc = [
     "pdf",
     "zip",
@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/HiP4wq4KssO50q78Wacv0J` },
+    document: { url: `https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -66,13 +66,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/LFupAQCn2N85kJ3o2H2FLb",
+        mediaUrl: "https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej",
         mediaType: 2,
         previewType: "pdf",
         title: "The goku - Bot",
         body: "Repositorio - GitHub",
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/LFupAQCn2N85kJ3o2H2FLb",
+        sourceUrl: "https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej",
       },
     },
     caption: info,
