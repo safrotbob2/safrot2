@@ -13,7 +13,7 @@ try {
 
 const yt_play = await search(args.join(' '))
 let additionalText = ''
-if (command === 'اغنيه|اغنية|شغل') {
+if (command === 'اغنيه') {
 additionalText = 'audio'
 } else if (command === 'فيديو') {
 additionalText = 'video'}
@@ -38,7 +38,7 @@ ${yt_play[0].url}
 *🧛🏻‍♂️⃝🇪🇬️⤺┇❯ الرجاء الانتظار حين يتم تلبيه طلبك صلي علي نبينا محمد*`.trim()
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: dev, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
 
-if (command == 'اغنيه|اغنية|شغل') {	
+if (command == 'اغنيه') {	
 try {
 let q = '128kbps'
 let v = yt_play[0].url
@@ -122,7 +122,7 @@ m.react(error)
 return conn.reply(m.chat, '🚩 *حاول ثانيه*', m, fake, )}
 
 }
-handler.help = ['اغنيه|شغل', 'فيديو']
+handler.help = ['اغنيه', 'فيديو']
 handler.tags = ['descargas']
 handler.command = /^اغنيه|فيديو?$/i
 
@@ -214,3 +214,4 @@ for (let i = 0; i < result.length; i++) { url.push(result[i].url) }
 let random = url[0]
 let getVideo = await ytMp4(random)
 resolve(getVideo)}).catch(reject)})}
+                 
