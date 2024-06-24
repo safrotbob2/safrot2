@@ -14,7 +14,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     const done = '✅'; // رمز الانتهاء
 
     await conn.sendMessage(m.chat, {
-      image: { url: 'https://telegra.ph/file/cf3ff642dd9eb7b209e36.jpg' },
+      image: { url: 'https://telegra.ph/file/6f5728ffb36e986b957f6.mp4' },
       caption: 'ثانيه افكر....⚡'
     }, { quoted: m });
     
@@ -47,6 +47,6 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
 handler.help = ['chats'];
 handler.tags = ['ذكاء اصناعي'];
-handler.command = ['goku', 'غوكو'];
+handler.command = ['goku', 'مارو'];
 
 export default handler;
