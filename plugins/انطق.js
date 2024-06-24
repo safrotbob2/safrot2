@@ -1,44 +1,51 @@
-import gtts from 'node-gtts';
-import {readFileSync, unlinkSync} from 'fs';
-import {join} from 'path';
-const defaultLang = 'ar';
-const handler = async (m, {conn, args, usedPrefix, command}) => {
-  let lang = args[0];
-  let text = args.slice(1).join(' ');
-  if ((args[0] || '').length !== 2) {
-    lang = defaultLang;
-    text = args.join(' ');
-  }
-  if (!text && m.quoted?.text) text = m.quoted.text;
-  let res;
-  try {
-    res = await tts(text, lang);
-  } catch (e) {
-    m.reply(e + '');
-    text = args.join(' ');
-    if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] فين الكلام الي هنطقه \nمثال: ${usedPrefix + command} مرحبا*`;
-    res = await tts(text, defaultLang);
-  } finally {
-    if (res) conn.sendFile(m.chat, res, 'tts.opus', null, m, true);
-  }
-};
-handler.help = ['tts <lang> <teks>'];
-handler.tags = ['tools'];
-handler.command = /^انطق$/i;
-export default handler;
+cmd({
+            pattern: "tts",
+            alias :["قول","انطق"],
+            react: "📼",
+            desc: "text to speech.",
+            category: "downloader",
+            filename: __filename,
+            use: '<Hii,this is Secktor>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply('*֎╎اكـتـب اي شـي وسـوف انـطـقـه*')
+            let texttts = text
+            const ttsurl = googleTTS.getAudioUrl(texttts, {
+                lang: "ar",
+                slow: false,
+                host: "https://translate.google.com",
+            });
+            return Void.sendMessage(citel.chat, {
+                audio: {
+                    url: ttsurl,
+                },
+                mimetype: "audio/mpeg",
+                fileName: `ttsCitelVoid.m4a`,
+            }, {
+                quoted: citel,
+            });
+        }
 
-function tts(text, lang = 'ar') {
-  console.log(lang, text);
-  return new Promise((resolve, reject) => {
-    try {
-      const tts = gtts(lang);
-      const filePath = join(global.__dirname(import.meta.url), '../tmp', (1 * new Date) + '.wav');
-      tts.save(filePath, text, () => {
-        resolve(readFileSync(filePath));
-        unlinkSync(filePath);
-      });
-    } catch (e) {
-      reject(e);
-    }
-  });
-}
+    )
+    
+//---------------------------------------------------------------------------    
+    
+    cmd({
+            pattern: "gitclone",
+            desc: "Downloads apks  .",
+            category: "downloader",
+            filename: __filename,
+            use: '<add sticker url.>',
+        },
+        async(Void, citel, text) => {
+	if (!text) return await citel.send('*Provide Repo Url, Ex:- _.gitclone https://github.com/Bladeh4x/BLADE-MD_*') 
+    const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
+    if (!regex.test(text) ) return await citel.send('*Uhh Please, Provide Valid Repositry Url*');
+    let [_, user, repo] = text.match(regex) || []
+    repo = repo.replace(/.git$/, '')
+    let url = `https://api.github.com/repos/${user}/${repo}/zipball`
+    let filename = (await fetch(url, { method: 'HEAD' })).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
+    //citel.send(`✳️ Wait, sending repository.. \n` + filename.toString() )
+	await Void.sendMessage(citel.chat , {document : { url : url }, fileName:  filename,mimetype: 'application/zip',  })
+
+	})
