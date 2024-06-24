@@ -16,11 +16,11 @@ let json = res[Math.floor(Math.random() * res.length)]
 //let result = await res.json()
 //let json = result.result
 let caption = `
-تخمين الشخصيه من الصوت
-❐↞┇الـوقـت⏳↞ *${(timeout / 1000).toFixed(2)} ┇
-❐↞┇✍اكتب ${usedPrefix}تلميح* للحصول على تلميح*
-❐↞┇الـجـائـزة💰↞ ${poin} نقاط┇
-❐↞┇أجب على هذه الرسالة بالإجابات!┇
+*تخمين الشخصيه من الصوت*
+🧛🏻‍♂️⃝🇪🇬️⤺┇❯الـوقـت⏳↞ *${(timeout / 1000).toFixed(2)} ┇
+🧛🏻‍♂️⃝🇪🇬️⤺┇❯✍اكتب ${usedPrefix}تلميح* للحصول على تلميح*
+🧛🏻‍♂️⃝🇪🇬️⤺┇❯الـجـائـزة💰↞ ${poin} نقاط┇
+🧛🏻‍♂️⃝🇪🇬️⤺┇❯أجب على هذه الرسالة بالإجابات!┇
 『𝙼𝚅𝚁𝙾 𝙱𝙾𝚃』`.trim()
 conn.tebaklagu[id] = [
 await m.reply(caption),
