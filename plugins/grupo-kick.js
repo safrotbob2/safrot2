@@ -8,7 +8,7 @@ await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
 }
 handler.help = ['kick']
 handler.tags = ['grupo']
-handler.command = /^(kick|طرد|هش|sacar|براا)$/i
+handler.command = /^(kick|طرد|هش|sacar|براا|انطر)$/i
 
 handler.admin = true
 handler.group = true
