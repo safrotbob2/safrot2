@@ -105,7 +105,7 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data)
 }
 loadChatgptDB()
 
-global.authFile = `mego md`
+global.authFile = `mvro md`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -216,13 +216,13 @@ return false
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./mego md")
+let directorio = readdirSync("./mvro md")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./mego md/${files}`)
+unlinkSync(`./mvro md/${files}`)
 })
 }
 
@@ -245,7 +245,7 @@ console.log(chalk.bold.red(`⚠️ حدث خطأ ما أثناء الحذف، و
 }}
 
 function purgeOldFiles() {
-const directories = ['./mego md/', './jadibts/']
+const directories = ['./mvro md/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -338,14 +338,14 @@ conn.ev.off('connection.update', conn.connectionUpdate);
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-conn.welcome = '*•نورت الجروب يحب 👾!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *•الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time\n\n*⚠️ شوف الوصف يحب*\n@readMore\n@desc'
-conn.bye = '*• المركب اللي تودي مترجعش 🚯*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time'
-conn.spromote = '*@user* ¡انضم إللي جروب الاداره¡'
-conn.sdemote = '*@user* ¡اترك المجموعة!'
-conn.sDesc = '¡تم تغيير الوصف!\n\n*الوصف الجديد:* @desc'
-conn.sSubject = '¡تم تغيير العنوان!'
-conn.sIcon = '¡تم تغيير الصورة الجماعية!'
-conn.sRevoke = '¡تم تحديث الرابط!*\n*الرابط الجديد:* @revoke'
+conn.welcome = '*•نورت الجروب يعم👾!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *•الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time\n\n*⚠️ شوف الوصف يحب*\n@readMore\n@desc'
+conn.bye = '*•انطر برا يعم بق🚯*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time'
+conn.spromote = '*@user* *👑⃝✨⤺┇❯ انضم إللي جروب الاداره¡*'
+conn.sdemote = '*@user* *👑⃝✨⤺┇❯ اترك المجموعة!*'
+conn.sDesc = '*👑⃝✨⤺┇❯ تم تغيير الوصف!*\n\n*👑⃝✨⤺┇❯ الوصف الجديد:* @desc'
+conn.sSubject = '👑⃝✨⤺┇❯ تم تغيير العنوان!*'
+conn.sIcon = '*👑⃝✨⤺┇❯ تم تغيير الصورة الجماعية!*'
+conn.sRevoke = '*👑⃝✨⤺┇❯ تم تحديث الرابط!*\n*👑⃝✨⤺┇❯ الرابط الجديد:* @revoke'
         
 
 conn.handler = handler.handler.bind(global.conn)
