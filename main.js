@@ -105,7 +105,7 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data)
 }
 loadChatgptDB()
 
-global.authFile = `mvro md`
+global.authFile = `mego md`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -216,13 +216,13 @@ return false
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./mvro md")
+let directorio = readdirSync("./mego md")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./mvro md/${files}`)
+unlinkSync(`./mego md/${files}`)
 })
 }
 
@@ -245,7 +245,7 @@ console.log(chalk.bold.red(`⚠️ حدث خطأ ما أثناء الحذف، و
 }}
 
 function purgeOldFiles() {
-const directories = ['./mvro md/', './jadibts/']
+const directories = ['./mego md/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -339,7 +339,7 @@ conn.ev.off('creds.update', conn.credsUpdate)
 }
 
 conn.welcome = '*•نورت الجروب يحب 👾!*\n*━━━━━━━━━━━━━━━━━━━*\n\n🍧 *•الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time\n\n*⚠️ شوف الوصف يحب*\n@readMore\n@desc'
-conn.bye = '*•المركب اللي تودي مترجعش 🚯*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time'
+conn.bye = '*• المركب اللي تودي مترجعش 🚯*\n*━━━━━━━━━━━━━━━━━━━━━━━━━*\n\n🍧 *• الرقم:* @user\n🗓️ *•التاريخ:* @date\n⏰ *•الوقت:* @time'
 conn.spromote = '*@user* ¡انضم إللي جروب الاداره¡'
 conn.sdemote = '*@user* ¡اترك المجموعة!'
 conn.sDesc = '¡تم تغيير الوصف!\n\n*الوصف الجديد:* @desc'
@@ -462,4 +462,4 @@ console.log(chalk.cyanBright(`\nAUTO_PURGE_OLDFILES │ BASURA ELIMINADA\n`))
 }, 1000 * 60 * 60)
 
 _quickTest().catch(console.error)
-    
+        
