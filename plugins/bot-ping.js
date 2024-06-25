@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej` },
+    document: { url: `https://wa.me/201208386317` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -66,13 +66,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej",
+        mediaUrl: "https://wa.me/201208306317",
         mediaType: 2,
         previewType: "pdf",
         title: "The Mvro - Bot",
         body: "Repositorio - GitHub",
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/DPgKqWFZrGCJquE1yc0uej",
+        sourceUrl: "https://wa.me/201208386317",
       },
     },
     caption: info,
