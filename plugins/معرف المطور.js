@@ -30,7 +30,7 @@ let love = `
 ┊➏ بتاع مصلحته
 ┊➐ الشواذ
 ┊➑ النرم 
-┘┈┈┈┈┈┈┈┈﴿غوكو بوت﴾┈┈┈┈┈⟤ـ`.trim()
+┘┈┈┈┈┈┈┈┈﴿مارو بوت﴾┈┈┈┈┈⟤ـ`.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
 handler.tags = ['fun']
