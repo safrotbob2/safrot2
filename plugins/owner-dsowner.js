@@ -6,7 +6,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '*⚠️ استخدم هذا الأمر مباشرة على الرقم الرئيسي للبوت.*'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '*⚠️ بدء عملية الحذف لجميع ملفات الجلسة باستثناء ملف creds.json...*'}, {quoted: m});
-  const sessionPath = './mego md/';
+  const sessionPath = './maro md/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: '*⚠️ مجلد الجلسات غير موجود أو أنه فارغ.*'}, {quoted: m});
