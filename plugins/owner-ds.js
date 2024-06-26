@@ -11,7 +11,7 @@ return conn.reply(m.chat, '🚩 *استخدم هذا الأمر مباشرة ف�
 await conn.reply(m.chat, '🚯 *بدء عملية حذف جميع ملفات الجلسة باستثناء الملفcreds.json...*', m, fake, )
 m.react(rwait)
 
-let sessionPath = './mego md/'
+let sessionPath = './maro md/'
 
 try {
 
