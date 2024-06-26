@@ -43,10 +43,10 @@ let handler = async (m, { conn }) => {
 *〄━━━╼⦿┄⦁╏🕸╏⦁┄⦿╾━━━〄*`;
 
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/cf3ff642dd9eb7b209e36.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/3782975aafc54e78e9d0c.mp4', 'image.jpg', message, m);
 };
 
-handler.customPrefix = /^(7|رونين|استماره|الاستماره)$/i;
+handler.customPrefix = /^(رونين|استماره|الاستماره)$/i;
 handler.command = new RegExp;
 
 export default handler;
