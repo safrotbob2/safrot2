@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
   conn.sendFile(m.chat, imgurl, filename, msg, m, false, { thumbnail: Buffer.alloc(0), mentions: [who] });
 };
 
-handler.customPrefix = /^(بوت|bot|مارو)$/i;
+handler.customPrefix = /^(بوت|bot)$/i;
 handler.command = new RegExp;
 
 export default handler;
