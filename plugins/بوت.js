@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let name = conn.getName(who);
   let mentionedUsername = `@${who.replace(/@.+/, '')}`; // اسم المستخدم المنشن
 
-  let imgurl = 'https://telegra.ph/file/041b5558e5bdc733878e2.jpg'; // رابط الصورة
+  let imgurl = 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'; // رابط الصورة
   let filename = 'imgerror.jpg'; // اسم الملف
 
   // رسالة مع التعديل المطلوب
