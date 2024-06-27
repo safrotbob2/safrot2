@@ -1,6 +1,6 @@
 var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
-if (!m.mentionedJid[0] && !m.quoted) return conn.reply(m.chat, '🎌 *منشن للشخض!*', m, fake, ) 
+if (!m.mentionedJid[0] && !m.quoted) return conn.reply(m.chat, '*مـنـشـن لـلـشـخـص!*', m, fake, ) 
 let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
 
 await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
