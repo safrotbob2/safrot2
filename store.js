@@ -28,14 +28,19 @@ var img2 = 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'
 global.sityImg = [img, img1, img2, img3, img4, img5, img6]
 
 //Enlaces
-global.yt = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o'
-global.ig = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o'
-global.md = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o'
-global.paypal = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o'
-global.git = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o'
-global.nn = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o' //Grupo ofc
-global.nnn = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o' //Curiosity global
-global.nnnn = 'https://chat.whatsapp.com/KsQEUDRT2Nh4mR2RjSXm8o' //colaboración multi bots
+global.yt = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.ig = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.md = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.paypal = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.git = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.nn = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle' //Grupo ofc
+global.nnn = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle' //Curiosity global
+global.nnnn = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle' //colaboración multi bots
+global.nnnnn = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle' //Colaboración CuriosityBot - NovaBot 
+global.nnnnnn = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle' //enlace curiosity
+global.channel = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.email = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
+global.channel2 = 'https://chat.whatsapp.com/D52Z0t97QfTFFjFHDi2Xle'
 global.linkSity = [yt, ig, md, paypal, git, channel, channel2]
 
 //Raíz
