@@ -40,9 +40,9 @@ global.linkSity = [yt, ig, md, paypal, git, channel, channel2]
 
 //Raíz
 global.raiz = './'
-global.aniD = 'mvro md/'
+global.aniD = 'goku md/'
 global.dirP = raiz//+aniD
-global.authFile = join(__dirname, `mvro md/`)
+global.authFile = join(__dirname, `goku md/`)
 global.authFileRespald = join(__dirname, `sesionRespaldo/`)
 global.temp = join(__dirname, 'tmp')
 global.media = raiz+'media/'
