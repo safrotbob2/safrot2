@@ -2,8 +2,8 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['201115618853', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true], 
- ['201115618853', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true],  ['201115618853'], ['20111561853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853']]
+global.owner = [['201115618853', '🌩️ ♯̶ЅᗩFᏒOT꙯‽ 👑', true], 
+ ['201115618853', '🌩️ ♯̶ЅᗩFᏒOT꙯ 👑', true],  ['201115618853'], ['20111561853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
