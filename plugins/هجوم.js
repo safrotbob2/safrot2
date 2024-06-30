@@ -1,11 +1,11 @@
 let ro = 3000
 let handler = async (m, { conn, usedPrefix, command}) => {
 let time = global.db.data.users[m.sender].lastrob + 7200000
-if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `*⏱️ مهلا انتظر ${msToTime(time - new Date())} عشان تسرق تاني*`
+if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `*⏱️ ويت ${msToTime(time - new Date())} عشان تسرق تاني*`
 let who
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
 else who = m.chat
-if (!who) throw `*[❗] منشن للي هتسرقه يحرامي*`
+if (!who) throw `*[😹] منشن للي هتسرقه يحرامي*`
 if (!(who in global.db.data.users)) throw `*[❗] المستخدم غير موجود في قاعدة البيانات الخاصة بي.*`
 let users = global.db.data.users[who]
 let rob = Math.floor(Math.random() * ro)
