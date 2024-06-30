@@ -2,25 +2,25 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['201208386317', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true], 
- ['201208386317', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true],  ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317'], ['201208386317']]
+global.owner = [['201115618853', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true], 
+ ['201115618853', '🌩️ ẉa.me/MVRO‖.peị!‽ 👑', true],  ['201115618853'], ['20111561853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853'], ['201115618853']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +201208386317
+global.botNumberCode = '' //Ejemplo: +201115618853
 global.confirmCode = ''
 
-global.animxscans = ['201208386317']
-global.suittag = ['201208386317']
+global.animxscans = ['201115618853']
+global.suittag = ['201115618853']
 global.mods = []
 global.prems = []
 
-global.packname = '『 201208386317 』'
-global.author = '『 مـــاࢪو بــ☠️ـوت 』'
-global.wm = '『مـــاࢪو بــ🐍ـؤؤت 』'
-global.wm2 = '『 مـــاࢪو بــ💎ـوت 』'
-global.azami = '『مـــاࢪو بــ💀وت 』'
-global.cb = '『 مـــاࢪو بــ👾ـوت 』'
+global.packname = '『 201115618853 』'
+global.author = '『 بوت سفࢪوت🕊 』'
+global.wm = '『بوت سفࢪوت🧸🥂 』'
+global.wm2 = '『 سفࢪوت بوت🥷🏻🔥 』'
+global.azami = '『سفروت بوت🧌🤺 』'
+global.cb = '『 سفروت بوت🤺🔥 』'
 
 global.vs = 'V2 • 1.0.5'
 global.library = 'Baileys'
@@ -28,8 +28,8 @@ global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.KMA = '╰━━━〔 *🛡️ 1.7.9* 〕━━━━━⬣'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '© 𝙼𝚅𝚁𝙾 𝙱𝙾𝚃'
-global.devnum = '201208386317'
+global.dev = '© ♯ЅᗩFᏒOT꙯ 𝙱𝙾𝚃'
+global.devnum = '201115618853'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
