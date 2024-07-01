@@ -30,10 +30,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							  	    highlight_label: 'yas',
   						  		    rows: [
   						  		    	{
-  						  		    		header: '【..≼قــســم الجروبات≽..】',
+  						  		    		header: '◡̈⃝˼‏👥˹ ━━|قسم الجروبات│━━˼‏👥˹◡̈⃝_',
   										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الجروبات≽..】',
-  								    		  id: '.الجروب'
+  									    	  description: '◡̈⃝˼‏👥˹ ━━|الجروبات│━━˼‏👥˹◡̈⃝_',
+  								    		  id: '.سفروت1'
   						  		    	}
   						  		    ]
   						  			},
