@@ -16,9 +16,9 @@ const mentionsContentM = [m.sender, m.messageStubParameters[0]]
 const links = linkSity.getRandom()
 
 if (chat.detect2 && m.messageStubType == 29) {
-let txt1 = `🚩 *لقد اصبح مشرف*\n\n`
-txt1 += `اصبحت مشرف ابسط ☠️  : @${m.messageStubParameters[0].split`@`[0]}\n`
-txt1 += `اللي ضافك ادمن 👾: @${m.sender.split`@`[0]}`
+let txt1 = ` *طلعت رول ابسط😹🔪*\n\n`
+txt1 += `بقيت ادمن ابسط يعم😹🔪  : @${m.messageStubParameters[0].split`@`[0]}\n`
+txt1 += `اللي ضافك ادمن 😹🔪: @${m.sender.split`@`[0]}`
 
 await conn.sendMessage(m.chat, {text: txt1, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": img, "mediaUrl": links, "sourceUrl": links}}})
 }
