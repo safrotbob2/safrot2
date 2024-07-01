@@ -532,7 +532,7 @@ for (let cs of callUpdate) {
 if (cs.isGroup == false) {
 if (cs.status == "offer") {
 let callmsg = await this.reply(nk.from, `مرحبا *@${cs.from.split('@')[0]}*, Las ${cs.isVideo ? 'videollamadas' : 'llamadas'} ممنوع الاتصال وسيتم حظرك`, false, { mentions: [cs.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;♯̶ЅᗩFᏒOT꙯ 👑;;;\nFN:Azami\nORG:Azami 👑\nTITLE:\nitem1.TEL;waid=+201115618853:+201115618853\nitem1.X-ABLabel:♯̶ЅᗩFᏒOT꙯👑\nX-WA-BIZ-DESCRIPTION:Solo cosas del bot.\nX-WA-BIZ-:♯̶ЅᗩFᏒOT꙯ 👑\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;♯̶ЅᗩFᏒOT꙯ 👑;;;\nFN:Azami\nORG:Azami 👑\nTITLE:\nitem1.TEL;waid=+201115618853:+201115618853\nitem1.X-ABLabel:♯̶ЅᗩFᏒOT꙯👑\nX-WA-BIZ-DESCRIPTION:Solo cosas del bot.\nX-WA-BIZ-NAME:𝑮𝒐𝒌𝒖 👑\nEND:VCARD`
 await this.sendMessage(cs.from, { contacts: { displayName: '♯̶ЅᗩFᏒOT꙯ 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(cs.from, 'block')
 }}}
@@ -576,7 +576,7 @@ botAdmin: '* [◡̈⃝🚯] لازم تطلعني رول الاول*',
 unreg: '* [◡̈⃝🚯]لازم تسجل لاستخدام الأمر ده*\n\n!تسجيل الاسم.العمر\n\n*الاستخدام الصحيح* : !تسجيل سفروت.17',
 restrict: '* [◡̈⃝🚯] الميزه دي المطور لغيها *'
 }[type]
-if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '🧸 + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: fotos }}})
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '🎄'  + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: fotos }}})
 
 }
 const file = global.__filename(import.meta.url, true);
