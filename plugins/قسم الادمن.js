@@ -78,7 +78,7 @@ mport { createHash } from 'crypto'
        }, { quoted: m });
    };
    handler.help = ['main']
-   handler.command = ['سفروت1'] 
+   handler.command = ['safrot1'] 
 
    export default handler
    function clockString(ms) {
