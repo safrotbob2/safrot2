@@ -52,10 +52,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '【..≼قــســم الانــمـــي≽..】',
+  						  		    		header: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝_',
   										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الانــمـــي≽..】',
-  								    		  id: '.انيمي'
+  									    	  description: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝_',
+  								    		  id: '.سفروت3'
   						  		    	}
   						  				]
                                     },
