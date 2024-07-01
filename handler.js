@@ -485,8 +485,8 @@ pp = await this.profilePictureUrl(user, 'image')
 } catch (e) {
 } finally {
 let apii = await this.getFile(pp)
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'هلا نورت الجروب 🚶🏼, @user!').replace('@date', global.fecha).replace('@time', global.tiempo).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*⚠️ ESTE GRUPO NO TIENE DESCRIPCIÓN ⚠️*') :
-(chat.sBye || this.bye || conn.bye || 'المركب اللي تودي مترجعش 🚯, @user!')).replace('@user', '@' + user.split('@')[0]).replace('@date', global.fecha).replace('@time', global.tiempo)
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'نورت الروم يا حب [💜◡̈⃝🪩] , @user!').replace('@date', global.fecha).replace('@time', global.tiempo).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*⚠️ ESTE GRUPO NO TIENE DESCRIPCIÓN ⚠️*') :
+(chat.sBye || this.bye || conn.bye || ' [🥂◡̈⃝😹] باي من غير سلام, @user!')).replace('@user', '@' + user.split('@')[0]).replace('@date', global.fecha).replace('@time', global.tiempo)
 let links = linkSity.getRandom()
 
 this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": 'W E L C O M E', "body": `${wm}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": links}}})
@@ -496,11 +496,11 @@ this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalA
 break
 case 'promote':
 case 'promover':
-text = (chat.sPromote || this.spromote || conn.spromote || '@user لقد اصبح ادمن الان 👽')
+text = (chat.sPromote || this.spromote || conn.spromote || '@user ابسط بقيت ادمن [◡̈⃝😹]')
 case 'demote':
 case 'degradar':
 if (!text)
-text = (chat.sDemote || this.sdemote || conn.sdemote || '@user لم يعد ادمن بعد الان 👾')
+text = (chat.sDemote || this.sdemote || conn.sdemote || '@user  نزلت من الرول [◡̈⃝😹] ')
 text = text.replace('@user', '@' + participants[0].split('@')[0])
 if (chat.detect)
 this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -532,8 +532,8 @@ for (let cs of callUpdate) {
 if (cs.isGroup == false) {
 if (cs.status == "offer") {
 let callmsg = await this.reply(nk.from, `مرحبا *@${cs.from.split('@')[0]}*, Las ${cs.isVideo ? 'videollamadas' : 'llamadas'} ممنوع الاتصال وسيتم حظرك`, false, { mentions: [cs.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑮𝒐𝒌𝒖 👑;;;\nFN:Azami\nORG:Azami 👑\nTITLE:\nitem1.TEL;waid=+967774318278:+967774318278\nitem1.X-ABLabel:𝑮𝒐𝒌𝒖 👑\nX-WA-BIZ-DESCRIPTION:Solo cosas del bot.\nX-WA-BIZ-NAME:𝑮𝒐𝒌𝒖 👑\nEND:VCARD`
-await this.sendMessage(cs.from, { contacts: { displayName: '𝑮𝒐𝒌𝒖 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;♯̶ЅᗩFᏒOT꙯ 👑;;;\nFN:Azami\nORG:Azami 👑\nTITLE:\nitem1.TEL;waid=+201115618853:+201115618853\nitem1.X-ABLabel:♯̶ЅᗩFᏒOT꙯👑\nX-WA-BIZ-DESCRIPTION:Solo cosas del bot.\nX-WA-BIZ-:♯̶ЅᗩFᏒOT꙯ 👑\nEND:VCARD`
+await this.sendMessage(cs.from, { contacts: { displayName: '♯̶ЅᗩFᏒOT꙯ 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(cs.from, 'block')
 }}}
 }
@@ -565,18 +565,18 @@ let fotos = sityImg.getRandom()
 global.dfail = (type, m, conn) => {
 
 let msg = {
-rowner: '*➺ الامر دا لمطور فقط 🔰*',
-owner: '*➺الامر دا للمطور فقط 🔰*',
-mods: '*➺الامر دا للمشرفين فقط 🔰*',
-premium: '*¡➺الامر دا للمميزين فقط 🔰!*',
-group: '*¡➺الميزه دي فالجروبات فقط🔰!*',
-private: '*¡➺الامر دا للخاص فقط🔰!*',
-admin: '*¡➺الامر دا لاادمن فقط🔰!*',
-botAdmin: '*¡➺يجب رفع البوت ادمن🔰!*',
-unreg: '*¡يجب التسجيل لاستخدام الامر يحب!*\n\n!تسجيل الاسم.العمر\n\n*الاستخدام الصحيح* : !تسجيل غوكو.17',
-restrict: '*¡الميزه معطله من قبل المطور!*'
+rowner: '* [◡̈⃝🚯] الميزه دي للمطور يا حب *',
+owner: '* [◡̈⃝🚯] الميزه دي للمطور بس يا نجم *',
+mods: '* [◡̈⃝🚯] الميزه دي للمشرف بس يا حب *',
+premium: '* [◡̈⃝🚯] الميزه دي للاعضاء المميزينبس*',
+group: '* [◡̈⃝🚯] الميزه دي شغاله فلجربات بس *',
+private: '* [◡̈⃝🚯] الميزه دي للبرايقت بس *',
+admin: '* [◡̈⃝🚯] الميزه دي للادمن بس*',
+botAdmin: '* [◡̈⃝🚯] لازم تطلعني رول الاول*',
+unreg: '* [◡̈⃝🚯]لازم تسجل لاستخدام الأمر ده*\n\n!تسجيل الاسم.العمر\n\n*الاستخدام الصحيح* : !تسجيل سفروت.17',
+restrict: '* [◡̈⃝🚯] الميزه دي المطور لغيها *'
 }[type]
-if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '🎄'  + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: fotos }}})
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '🧸 + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: fotos }}})
 
 }
 const file = global.__filename(import.meta.url, true);
