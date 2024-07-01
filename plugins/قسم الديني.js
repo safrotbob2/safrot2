@@ -62,7 +62,7 @@ import { createHash } from 'crypto'
        }, { quoted: m });
    };
    handler.help = ['main']
-   handler.command = ['سفروت2'] 
+   handler.command = ['الدين'] 
 
    export default handler
    function clockString(ms) {
