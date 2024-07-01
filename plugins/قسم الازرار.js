@@ -74,10 +74,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '【..≼قــســم الايديت والصور≽..】',
-  										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الايديت والصور≽..】',
-  								    		  id: '.الايديت'
+  						  		    		header: '◡̈⃝˼‏📥˹ ━━|قسم التحميل│━━˼‏📥˹◡̈⃝',
+  										      title: '𝙎𝙖𝙛𝙧𝙤𝙩-𝘽𝙤𝙩',
+  									    	  description: '◡̈⃝˼‏📥˹ ━━|قسم التحميل│━━˼‏📥˹◡̈⃝',
+  								    		  id: '.سفروت5'
   						  		    	}
   						  				]
                                         },
