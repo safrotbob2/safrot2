@@ -36,7 +36,7 @@ global.git = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY'
 global.nn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //Grupo ofc
 global.nnn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //Curiosity global
 global.nnnn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //colaboración multi bots
-global.nnnnn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //Colaboración CuriosityBot - NovaBot 
+global.nnnnn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //Colaboración CuriosityBot - ♯ЅᗩFᏒOT꙯
 global.nnnnnn = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY' //enlace curiosity
 global.channel = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY'
 global.email = 'https://chat.whatsapp.com/ClNQxTnKyFx6eZnJcvqsPY'
@@ -45,9 +45,9 @@ global.linkSity = [yt, ig, md, paypal, git, channel, channel2]
 
 //Raíz
 global.raiz = './'
-global.aniD = 'goku md/'
+global.aniD = '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃/'
 global.dirP = raiz//+aniD
-global.authFile = join(__dirname, `goku md/`)
+global.authFile = join(__dirname, `𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃/`)
 global.authFileRespald = join(__dirname, `sesionRespaldo/`)
 global.temp = join(__dirname, 'tmp')
 global.media = raiz+'media/'
