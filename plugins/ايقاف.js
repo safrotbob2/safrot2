@@ -7,7 +7,7 @@ const handler = async (m) => {
     global.db.data.chats[m.chat].session = false;
 
     global.db.data.chats[m.chat].audios = false;
-    m.reply('*يبدو انك استعملت البوت بدون اذن*\n> *لقد تم ايقاف استعمال البوت في هذه الدردشه*\n*مارو*');
+    m.reply('*يبدو انك استعملت البوت بدون اذن*\n> *لقد تم ايقاف استعمال البوت في هذه الدردشه*\n*سفروت*');
     };
     handler.help = ['banchat'];
     handler.tags = ['owner'];
