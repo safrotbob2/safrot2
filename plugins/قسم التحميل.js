@@ -96,7 +96,7 @@ import { createHash } from 'crypto'
        }, { quoted: m });
    };
    handler.help = ['main']
-   handler.command = ['سفروت5'] 
+   handler.command = ['التحميل'] 
 
    export default handler
    function clockString(ms) {
