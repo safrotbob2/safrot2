@@ -41,10 +41,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '【..≼قــســم الاعضاء≽..】',
-  										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الاعضاء≽..】',
-  								    		  id: '.الاعضاء'
+  						  		    		header: '◡̈⃝˼‏🤍˹ ━━|قسم الدين│━━˼‏📿˹◡̈⃝',
+  										      title: '𝙎𝙖𝙛𝙧𝙤𝙩𝘽𝙤𝙩',
+  									    	  description: '◡̈⃝˼‏🤍˹ ━━|قسم الدين│━━˼‏📿˹◡̈⃝',
+  								    		  id: '.سفروت2'
   						  		    	}
   						  				]
   						        	},
@@ -52,9 +52,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝_',
+  						  		    		header: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝',
   										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝_',
+  									    	  description: '◡̈⃝˼‏👨🏼‍🎤˹ ━━|قسم الانمي│━━˼‏👩🏻‍🎤˹◡̈⃝',
   								    		  id: '.سفروت3'
   						  		    	}
   						  				]
@@ -96,10 +96,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '【..≼قــســم الادوات≽..】',
-  										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الادوات≽..】',
-  								    		  id: '.الاداوات'
+  						  		    		header: '◡̈⃝˼‏👤˹ ━━|قسم الاديت│━━˼✨˹◡̈⃝',
+  										      title: '𝙎𝙖𝙛𝙧𝙤𝙩-𝘽𝙤𝙩',
+  									    	  description: '◡̈⃝˼‏👤˹ ━━|قسم الاديت│━━˼✨˹◡̈⃝',
+  								    		  id: '.سفروت7'
   						  		    	}
   						  				]
                                         },
@@ -107,9 +107,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
-  						  		    		header: '◡̈⃝˼‏🏦˹ ━━|قسم البنك│━━˼🏦˹◡̈⃝_',
-  										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
-  									    	  description: '◡̈⃝˼‏🏦˹ ━━|قسم البنك│━━˼🏦˹◡̈⃝_',
+  						  		    		header: '◡̈⃝˼‏🏦˹ ━━|قسم البنك│━━˼🏦˹◡̈⃝',
+  										      title: '𝙎𝙖𝙛𝙧𝙤𝙩-𝘽𝙤𝙩',
+  									    	  description: '◡̈⃝˼‏🏦˹ ━━|قسم البنك│━━˼🏦˹◡̈⃝',
   								    		  id: '.سفروت8'
   						  		    	}
   						  				]
