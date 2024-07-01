@@ -34,7 +34,7 @@ import { createHash } from 'crypto'
    let readMore = more.repeat(850) 
    let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
    let str = `
-━━⊜  *◡̈⃝˼‏📖˹ ━━|قسم الادمن│━━˼‏📖˹◡̈⃝_*
+━━⊜  *◡̈⃝˼‏📖˹ ━━|قسم الرومات│━━˼‏📖˹◡̈⃝_*
 ┇≡ *◡̈⃝🧸📌 ⁩ تفضل القائمة يا*  : *${taguser}*
 ┇≡ *◡̈⃝📝📌قبل كتابة اي امر حط (.)*
 ┇≡ *◡̈⃝⌚📌وقـت الـتـشـغـيـل ${uptime}
@@ -78,7 +78,7 @@ import { createHash } from 'crypto'
        }, { quoted: m });
    };
    handler.help = ['main']
-   handler.command = ['سفروت1'] 
+   handler.command = ['الرومات'] 
 
    export default handler
    function clockString(ms) {
