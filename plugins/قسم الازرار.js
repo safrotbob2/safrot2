@@ -33,7 +33,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    		header: '◡̈⃝˼‏👥˹ ━━|قسم الجروبات│━━˼‏👥˹◡̈⃝_',
   										      title: '𝚂𝙰𝙽𝙵𝙾𝚁-𝙱𝙾𝚃',
   									    	  description: '◡̈⃝˼‏👥˹ ━━|الجروبات│━━˼‏👥˹◡̈⃝_',
-  								    		  id: '.safrot1'
+  								    		  id: '.سفروت1'
   						  		    	}
   						  		    ]
   						  			},
